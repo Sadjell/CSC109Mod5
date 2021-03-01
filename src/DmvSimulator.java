@@ -32,6 +32,7 @@ public class DmvSimulator {
 
         System.out.println("Currently serving: " + currentNumber);
         System.out.println("You do not have the required documents, please come back once you have them.");
+        System.out.println("You really need to leave. You do not have the right documents. Get out");
 
         System.exit(0);
 		
