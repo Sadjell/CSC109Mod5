@@ -9,7 +9,7 @@ public class DmvSimulator {
         int count;
 
 
-        int currentNumber = random.nextInt(100); 
+        int currentNumber = random.nextInt(200); 
 
 
         System.out.println("Welcome to the DMV!");
@@ -18,7 +18,7 @@ public class DmvSimulator {
 
         count = currentNumber + 1;
 
-        while (count <= 100) {
+        while (count <= 200) {
             System.out.println("Currently serving:  " + count);
             count++;
 
