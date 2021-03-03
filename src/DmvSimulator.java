@@ -39,14 +39,21 @@ public class DmvSimulator {
         }
 
         System.out.println("Currently serving: " + currentNumber);
-        System.out.println("You do not have the required documents, please come back once you have them.");
+        //System.out.println("You do not have the required documents, please come back once you have them.");
 
 
-        System.out.println("You really need to leave. You do not have the right documents. Get out");
+        //System.out.println("You really need to leave. You do not have the right documents. Get out");
 
 
 
-        System.out.println("Evil laugh mwaahahhaahha");
+        //System.out.println("Evil laugh mwaahahhaahha");
+        
+        int probability = random.nextInt(101);
+        if (probability == 1) {
+            System.out.println("You have all the required paperwork, you are all set.");
+        } else {
+            System.out.println("The documents you brought are not sufficient. Next time, make sure to read what you need to bring before wasting everyone's time.");
+        }
 
         System.exit(0);
 		
