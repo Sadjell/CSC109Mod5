@@ -9,11 +9,11 @@ public class DmvSimulator {
         int count;
 
 
-<<<<<<< HEAD
+
         int currentNumber = random.nextInt(200); 
-=======
-        int currentNumber = random.nextInt(100); 
->>>>>>> ea5ff687a6de356a62cfcd6e53a586593f764c8d
+
+        //int currentNumber = random.nextInt(100); 
+
 
 
         System.out.println("Welcome to the DMV!");
@@ -22,11 +22,11 @@ public class DmvSimulator {
 
         count = currentNumber + 1;
 
-<<<<<<< HEAD
+
         while (count <= 200) {
-=======
-        while (count <= 100) {
->>>>>>> ea5ff687a6de356a62cfcd6e53a586593f764c8d
+
+       
+
             System.out.println("Currently serving:  " + count);
             count++;
 
@@ -40,10 +40,13 @@ public class DmvSimulator {
 
         System.out.println("Currently serving: " + currentNumber);
         System.out.println("You do not have the required documents, please come back once you have them.");
-<<<<<<< HEAD
-=======
+
+
         System.out.println("You really need to leave. You do not have the right documents. Get out");
->>>>>>> ea5ff687a6de356a62cfcd6e53a586593f764c8d
+
+
+
+        System.out.println("Evil laugh mwaahahhaahha");
 
         System.exit(0);
 		
