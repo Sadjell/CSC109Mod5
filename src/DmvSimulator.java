@@ -9,11 +9,15 @@ public class DmvSimulator {
         int count;
 
 
+<<<<<<< HEAD
+        int currentNumber = random.nextInt(200); 
+=======
 
         int currentNumber = random.nextInt(200); 
 
         //int currentNumber = random.nextInt(100); 
 
+>>>>>>> fd36fa0d81542ad729658381681806cfd1697723
 
 
         System.out.println("Welcome to the DMV!");
@@ -22,11 +26,15 @@ public class DmvSimulator {
 
         count = currentNumber + 1;
 
+<<<<<<< HEAD
+        while (count <= 200) {
+=======
 
         while (count <= 200) {
 
        
 
+>>>>>>> fd36fa0d81542ad729658381681806cfd1697723
             System.out.println("Currently serving:  " + count);
             count++;
 
